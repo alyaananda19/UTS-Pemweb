@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #496989;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #496989;
+    text-decoration: none;
+}
+
+.welcome-box {
+    background-color: #496989;
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Menambahkan display flex untuk .welcome-box */
+    flex-direction: column; /* Mengatur flex direction menjadi column agar konten berada dalam satu kolom */
+    align-items: center; /* Mengatur konten di tengah secara horizontal */
+}
+
+.welcome-box img {
+    margin-top: 20px; /* Memberikan margin atas pada gambar */
+    max-width: 100%; /* Membuat gambar responsif */
+}
+
+header h1 {
+    background-color: #fff; /* Memberikan latar belakang putih */
+    display: inline-block; /* Mengubah elemen menjadi blok */
+    padding: 0px; /* Menambahkan ruang di sekitar teks */
+    margin: 0; 
+    border: 2px solid #333;
+    border-radius: 5px; 
+}
